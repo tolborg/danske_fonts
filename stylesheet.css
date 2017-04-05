@@ -1,1 +1,11 @@
-test
+@font-face {
+  font-family: danske_textregular;
+  src: url(www.danskebank.dk/fonts/text/dk_text-webfont.eot);
+  src: url(www.danskebank.dk/fonts/text/dk_text-webfont.eot?#iefix) format("embedded-opentype"),
+       url(/fonts/text/dk_text-webfont.woff2) format("woff2"),
+       url(www.danskebank.dk/fonts/text/dk_text-webfont.woff) format("woff"),
+       url(www.danskebank.dk/fonts/text/dk_text-webfont.ttf) format("truetype"),
+       url(www.danskebank.dk/fonts/text/dk_text-webfont.svg#danske_textregular) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
